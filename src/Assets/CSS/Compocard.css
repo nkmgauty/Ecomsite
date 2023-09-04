@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card_component{
+    height: 200px !important;
+    width: 300px !important;
+}
+
+.cardmain{
+    height: 220px !important;
+    background-color: #e1d4e0 !important;
+    display: flex;
+    flex-direction: row;
+    width: 300px !important;
+    border: transparent;
+    
+}
+
+.card1img{
+    
+    border-radius: 50% 50px 0px 50px;
+   padding-right: 125px;
+    padding-top: 80px;
+    height: 150px;
+    object-fit: contain !important;
+}
+
+.cardhead1{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+
+.cardhead1:hover{
+    color: purple;
+    cursor: pointer;
+}
+
+.card_submenu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    font-size: 20px !important;
+}
+
+.card_submenu p:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+
+.card_position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    padding: 670px 0px 100px;
+    height: auto;
+    width: 100%;
+}
+
+/* Feature card CSS */
+
+.feature_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+}
+
+.feature_card_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 50px;
+    font-size: 10px;
+    
+}
+
+.feature_icon{
+    height: 60px !important;
+    width: 60px !important;
+    padding: 0px 100px;
+}
+
+.feature_icon:hover{
+    color: purple !important;
+    cursor: pointer !important;
+}
+
+.feature_card_line{
+    height: 160px;
+    border: grey 0.5px solid;
+
+}
+
+.feature_card_endline{
+    width: 1400px;
+   padding: 0px 50px;
+   
+    border: grey 0.5px solid;
+}
+
+.feature_card_line_position{
+    padding: 0px 10px;
+}
+
+/* Product CSS */
+
+
+.product_main{
+    padding-top: 20px;
+}
+
+.prod1img{
+    background-image: url(../Images/product1f.jpg);
+    height: 300px;
+    width: 230px;
+}
+
+.prod1img:hover{
+    background-image: url(../Images/product1.jpg);
+    height: 300px;
+    width: 230px;
+}
+
+.prodimg1_position{
+    padding: 5px 10px;
+}
+
+.card_main{
+    padding: 5px 0px !important;
+}
+
+.card_model{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+
+.prod_rate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 10px;
+}
+
+.prod_button1{
+    border: 1px grey solid !important;
+    color: black !important;
+    background-color: white !important;
+   padding: 0px 10px !important;
+   height: 25px;
+   
+    
+}
+
+.prod_button2{
+    border: 1px grey solid !important;
+    color: black !important;
+    background-color: white !important;
+   padding: 0px 0px !important;
+   height: 25px !important;
+    
+}
+
+.prod_button_position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding: 10px 0px;
+}
+
+.product_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.prod2img{
+    background-image: url(../Images/product2f.jpg);
+    height: 300px;
+    width: 230px;
+
+}
+
+.prod2img:hover{
+    background-image: url(../Images/product2b.jpg);
+    height: 300px;
+    width: 230px;
+}
+
+.prod3img{
+    background-image: url(../Images/product3f.jpg);
+    height: 300px;
+    width: 230px;
+
+}
+
+.prod3img:hover{
+    background-image: url(../Images/product3b.jpg);
+    height: 300px;
+    width: 230px;
+}
+
+.prod4img{
+    background-image: url(../Images/product4.jpg);
+    height: 300px;
+    width: 230px;
+
+}
+
+.prod4img:hover{
+    background-image: url(../Images/product4b.jpg);
+    height: 300px;
+    width: 230px;
+}
+
+.product_heading{
+text-align: center;
+}
+
+.product_category{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.product_category p{
+    padding: 10px 10px;
+}
+
+.product_category p:hover{
+    border: 3px purple dashed;
+    border-radius: 5px;
+}
